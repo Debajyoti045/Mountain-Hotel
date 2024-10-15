@@ -1,7 +1,7 @@
 .upper-nav {
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: rgb(14, 10, 10);
   padding: 10px 30px;
   position: absolute;
   width: 100%; 
@@ -10,12 +10,13 @@
 }
 
 .upper-nav .address {
-  font-size: 17px;
+  padding-left: 30px;
+  font-size: 22px;
 }
 
 .upper-nav .contact span {
   padding: 20px;
-  font-size: 17px;
+  font-size: 19px;
 }
 
   

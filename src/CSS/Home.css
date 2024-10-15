@@ -1,8 +1,15 @@
 .upperPortion{
-    background-image: url('../../public/assets/mountainImage.jpeg');
+    background-image: url('../../public/assets/mountainImage.avif');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
     height: 100vh;
     position: relative; 
 }
+
+.whiteLine {
+    border: none;
+    height: 1px;     
+    background-color: rgb(160, 137, 137);
+    width: 100%;   
+  }

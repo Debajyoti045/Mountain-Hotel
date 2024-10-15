@@ -6,6 +6,10 @@ const Home = () => {
     <div>
         <div className="upperPortion">
            <UpperNav/>
+           <br/>
+           <br />
+           <br />
+           <hr className='whiteLine'/>
         </div>
     </div>
   )
