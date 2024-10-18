@@ -1,0 +1,29 @@
+.parameter-section {
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    right: 0; 
+    display: flex;
+    justify-content: center; 
+    gap: 4rem; 
+    padding: 20px 0; 
+}
+.parameter-item {
+    text-align: center; 
+    color: white;
+    font-family: 'Arial', sans-serif; 
+    padding: 30px;
+}
+
+.param-text {
+    font-size: 0.8rem; 
+    font-weight: 400; 
+    margin-bottom: 5px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+.param-value {
+    font-size: 3rem; 
+    font-weight: 700; 
+}
