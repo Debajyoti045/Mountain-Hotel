@@ -6,6 +6,7 @@ import { upperSmalltext, upperBigText } from "../Data/Data.jsx"
 import ParaMeterSection from "./ParaMeterSection";
 import TextSection from "./TextSection";
 import Slider from "./Slider.jsx";
+import Services from "./Services.jsx";
 const Home = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const Home = () => {
       </div>
       <TextSection/>
       <Slider/>
+      <Services/>
     </div>
   );
 };

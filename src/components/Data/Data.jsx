@@ -118,3 +118,41 @@ export const leftMainNav = [
       src: "../../public/assets/Sliderpic5.jpeg"
    }
  ]
+
+ export const afterSliderSmallText = "Enjoy Ultimate Alpine Experiences";
+ export const afterSliderBigText = "Your Holiday Paradise";
+
+ export const services = [
+   {
+      id: 1,
+      price: "$180 / PERSON",
+      smallTitle: "OUTDOORS",
+      mainTitle: "Winter Hiking",
+      link : "/winterHiking",
+      img:"../../public/assets/Sliderpic5.jpeg"
+   },
+   {
+      id: 1,
+      price: "$180 / PERSON",
+      smallTitle: "OUTDOORS",
+      mainTitle: "Paraglider Exercises",
+      link : "/ParagliderExercises",
+      img:"../../public/assets/Sliderpic5.jpeg"
+   },
+   {
+      id: 1,
+      price: "$180 / PERSON",
+      smallTitle: "OUTDOORS",
+      mainTitle: "Golf Courses",
+      link : "/winterHiking",
+      img:"../../public/assets/Sliderpic5.jpeg"
+   },
+   {
+      id:4,
+      price: "$180 / PERSON",
+      smallTitle: "OUTDOORS",
+      mainTitle: "Ski & Snowshoeing",
+      link: "/skiSnowshoeing",
+      img: "../../public/assets/Sliderpic5.jpeg"
+   }
+ ]
