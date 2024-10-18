@@ -91,3 +91,6 @@ export const leftMainNav = [
       val: "50KM"
    }
  ]
+
+ export const afterNavSmallText = "Swiss Heritage Meets Modern Luxury";
+ export const afterNavBigText = "CozyStay in the heart of the mountains is an architectural masterpiece offering contemporary accommodations with unrivalled ski and hiking trails.";

@@ -2,8 +2,9 @@ import React from "react";
 import UpperNav from "./UpperNav";
 import "../../CSS/Home.css";
 import MainNav from "./MainNav";
-import { upperSmalltext, upperBigText } from "../data/Data";
+import { upperSmalltext, upperBigText } from "../Data/Data.jsx"
 import ParaMeterSection from "./ParaMeterSection";
+import TextSection from "./TextSection";
 const Home = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const Home = () => {
         </div>
         <ParaMeterSection/>
       </div>
+      <TextSection/>
     </div>
   );
 };

@@ -1,0 +1,23 @@
+.after-nav-section {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #fff;
+}
+
+.small-text {
+    font-size: 0.85rem; 
+    color: rgb(162, 136, 115);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; 
+    margin-bottom: 10px; 
+}
+
+.big-text {
+    font-size: 2rem; 
+    color: #333; 
+    font-weight: 500;
+    line-height: 1.5; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
