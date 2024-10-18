@@ -94,3 +94,27 @@ export const leftMainNav = [
 
  export const afterNavSmallText = "Swiss Heritage Meets Modern Luxury";
  export const afterNavBigText = "CozyStay in the heart of the mountains is an architectural masterpiece offering contemporary accommodations with unrivalled ski and hiking trails.";
+
+
+ export const sliderImages = [
+   {
+      id: 1,
+      src: "../../public/assets/Sliderpic1.jpg"
+   },
+   {
+      id:2,
+      src: "../../public/assets/Silderpic2.jpeg"
+   },
+   {
+      id:3,
+      src: "../../public/assets/Sliderpic3.jpeg"
+   },
+   {
+      id:2,
+      src: "../../public/assets/Sliderpic4.jpeg"
+   },
+   {
+      id:3,
+      src: "../../public/assets/Sliderpic5.jpeg"
+   }
+ ]

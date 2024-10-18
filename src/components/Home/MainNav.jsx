@@ -1,5 +1,5 @@
 import React from 'react'
-import { leftMainNav, ComPanyName, rightMainNav } from "../data/Data";
+import { leftMainNav, ComPanyName, rightMainNav } from "../Data/Data";
 import "../../CSS/MainNav.css"
 import { FaStar } from 'react-icons/fa'; 
 const MainNav = () => {

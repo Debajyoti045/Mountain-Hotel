@@ -1,0 +1,46 @@
+.slider-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; 
+}
+
+.slider-image {
+  box-sizing: border-box; 
+}
+.slick-slide {
+  display: flex;
+  justify-content: center; 
+  box-sizing: border-box; 
+}
+
+.slick-list {
+  overflow: hidden; 
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-prev,
+.slick-next {
+  width: 130px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: black;
+}
+
+.slick-dots li button:before {
+  color: black;
+  font-size: 12px;
+}

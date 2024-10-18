@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../CSS/ParameterSection.css";
-import { parameters } from "../data/Data";
+import { parameters } from "../Data/Data";
 const ParaMeterSection = () => {
   return (
     <div className="parameter-section">

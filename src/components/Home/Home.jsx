@@ -5,6 +5,7 @@ import MainNav from "./MainNav";
 import { upperSmalltext, upperBigText } from "../Data/Data.jsx"
 import ParaMeterSection from "./ParaMeterSection";
 import TextSection from "./TextSection";
+import Slider from "./Slider.jsx";
 const Home = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const Home = () => {
         <ParaMeterSection/>
       </div>
       <TextSection/>
+      <Slider/>
     </div>
   );
 };
