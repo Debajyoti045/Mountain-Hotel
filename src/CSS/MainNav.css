@@ -1,0 +1,63 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    color: #fff;
+  }
+  
+  .left-nav ul, .right-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .left-nav ul li a, .right-nav ul li a {
+    color: #070101;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .company-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .company-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #120303;
+    margin-bottom: 5px; 
+  }
+  
+  .stars {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .star {
+    color: #FFD700; 
+    font-size: 1.2rem;
+  }
+  
+  .reserve-button {
+    background-color: #e67e22;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .reserve-button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .reserve-button:hover {
+    background-color: #d35400;
+  }
+  
