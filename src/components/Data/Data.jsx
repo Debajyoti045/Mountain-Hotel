@@ -356,3 +356,91 @@ export const leftMainNav = [
  export const ActivitiesAfterBigText = "Escape to the beautiful mountains where dreams come true. Immerse yourself in the restorative qualities of nature, far from the disturbances of everyday life."
 
  export const ActivitiesAfterImage = "../../public/assets/lastmountain.jpeg"
+
+
+export const footerLeftMainTitle = "COZYSTAY"
+export const footerLeftDesc = "Established in 1998, CozyStay Hotel is a boutique hotel in the heart of the Swiss Alps, offering contemporary accommodation and unrivaled access to ski and hiking trails, immersing you in an idyllic setting against pristine skies in search of a truly serene experience."
+export  const footerLeftIcons = [
+   {
+       id: 1,
+       icon:"../../public/assets/paypal.png"
+   },
+   {
+      id:2,
+      icon:"../../public/assets/mastercard.png"
+   },
+   {
+      id:3,
+      icon: "../../public/assets/visa.png"
+   },
+   {
+      id:4,
+      icon: "../../public/assets/stripe.png"
+   }
+]
+
+export const middleFooterTitle = "Reach Out"
+export const middleFooter = [
+   {
+      id:1,
+      type:"Email",
+      Value:"booking@cozystay.com"
+   },
+   {
+      id:2,
+      type:"Tel",
+      value:" +41 22 345 66 77"
+   },
+   {
+      id:3,
+      type:"Fax",
+      value:"+41 22 345 77 89"
+   },
+   {
+      id:4,
+      type:"Place",
+      value:"Rue de Lausanne, 1202 Genève, Switzerland"
+   }
+]
+
+export const middleLink = "GET DIRECTIONS"
+
+export const footerRightTitle = "Sign up for newsletter"
+export const connectedIcons = [
+   {
+      id:1,
+      icon:"../../public/assets/stripe.png"
+   },
+   {
+      id:2,
+      icon:"../../public/assets/stripe.png"
+   },
+   {
+      id:3,
+      icon:"../../public/assets/stripe.png"
+   },
+   {
+      id:4,
+      icon:"../../public/assets/stripe.png"
+   },
+   {
+      id:5,
+      icon:"../../public/assets/stripe.png"
+   }
+]
+
+export const footerContensLeft = [
+   {
+      id:1,
+      value:"PRIVACY",
+   },
+   {
+      id:2,
+      value:"TERMS OF USE"
+   },
+   {
+     id:3,
+     value:"POLICY"
+   }
+]
+

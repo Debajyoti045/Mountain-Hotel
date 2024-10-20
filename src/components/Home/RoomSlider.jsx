@@ -27,7 +27,7 @@ const RoomSlider = () => {
       <div className="slider-container">
         <Slider {...settings}>
           {Rooms.map((room) => (
-            <div key={room.id} className="room-card"  >
+            <div key={room.id} className="room-card"  style={{ backgroundImage: `url(${room.bgImage})` }}>
               <div className="room-info">
                 <span className="room-price">{room.price}</span>
                 <h3 className="room-heading">{room.Heading}</h3>
