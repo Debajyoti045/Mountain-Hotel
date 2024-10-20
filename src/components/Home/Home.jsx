@@ -8,6 +8,7 @@ import TextSection from "./TextSection";
 import Slider from "./Slider.jsx";
 import Services from "./Services.jsx";
 import RoomSlider from "./RoomSlider.jsx";
+import Activities from "./Activities.jsx";
 const Home = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ const Home = () => {
       <Slider/>
       <Services/>
       <RoomSlider/>
+      <Activities/>
     </div>
   );
 };

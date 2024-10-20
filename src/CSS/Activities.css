@@ -1,0 +1,98 @@
+.activities {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.activity-text-section {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #fff;
+}
+
+.activity-small-text {
+    font-size: 0.85rem; 
+    color: rgb(162, 136, 115);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; 
+    margin-bottom: 10px; 
+}
+
+.activity-big-text {
+    font-size: 2rem; 
+    color: #333; 
+    font-weight: 500;
+    line-height: 1.5; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.activity-card-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.activity-card {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: translateY(-10px);
+}
+
+.activity-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.activity-info {
+    padding: 20px;
+}
+
+.activity-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.activity-desc {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.activity-link {
+    font-size: 0.9rem;
+    color: rgb(162, 136, 115);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(162, 136, 115);
+    padding-bottom: 5px;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.activity-link:hover {
+    color: #333;
+    border-bottom-color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .activity-card-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}

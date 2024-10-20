@@ -327,26 +327,32 @@ export const leftMainNav = [
 
  export const RoomsAfterBigText = "Immerse yourself in a diverse mountain resort life"
 
- export const Activities = [
+ export const ActivitiesDesc = [
    {
       id:1,
-      img:"../../public/assets/Roompic1.jpeg",
+      img:"../../public/assets/Activitiespic1.png",
       title:"Spa & Wellness",
       desc: "In the hotel spa center we offer an exceptional well-being experience combining our expertise, high technology and breathtaking results.",
       link:"/spaAndwellness"
    },
    {
       id:2,
-      img:"../../public/assets/Roompic1.jpeg",
+      img:"../../public/assets/Activitiespic2.png",
       title:"Summer Week",
       desc: "The Swiss Alps are spectacular in summer, offering some of the best scenery in the world for hiking, biking, rafting and epic drives.",
       link:"/summerweek"
    },
    {
       id:3,
-      img:"../../public/assets/Roompic1.jpeg",
+      img:"../../public/assets/Activitiespic3.png",
       title:"5-Star Gastronomic",
       desc: "Extraordinary moments and special occasions are precious. Enjoy a premium suite and dinner for two as well as spa credits with this special offer.",
       link:"/fivestarGastonomic"
    }
  ]
+ 
+
+ export const ActivitiesAfterSmallText = "Book Your Stay Now"
+ export const ActivitiesAfterBigText = "Escape to the beautiful mountains where dreams come true. Immerse yourself in the restorative qualities of nature, far from the disturbances of everyday life."
+
+ export const ActivitiesAfterImage = "../../public/assets/lastmountain.jpeg"
