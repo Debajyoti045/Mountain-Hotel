@@ -132,7 +132,7 @@ export const leftMainNav = [
       img:"../../public/assets/Sliderpic5.jpeg"
    },
    {
-      id: 1,
+      id: 2,
       price: "$180 / PERSON",
       smallTitle: "OUTDOORS",
       mainTitle: "Paraglider Exercises",
@@ -140,7 +140,7 @@ export const leftMainNav = [
       img:"../../public/assets/Sliderpic5.jpeg"
    },
    {
-      id: 1,
+      id: 3,
       price: "$180 / PERSON",
       smallTitle: "OUTDOORS",
       mainTitle: "Golf Courses",

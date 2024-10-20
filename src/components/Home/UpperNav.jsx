@@ -1,5 +1,5 @@
 import React from "react";
-import { UpperNavCountry, upperNav } from "../data/Data";
+import { UpperNavCountry, upperNav } from "../Data/Data.jsx";
 import "../../CSS/UserNav.css"
 const UpperNav = () => {
   return (
