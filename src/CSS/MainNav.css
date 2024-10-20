@@ -15,7 +15,7 @@
   }
   
   .left-nav ul li a, .right-nav ul li a {
-    color: #070101;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
   }
@@ -29,7 +29,7 @@
   .company-name {
     font-size: 2rem;
     font-weight: bold;
-    color: #120303;
+    color: white;
     margin-bottom: 5px; 
   }
   

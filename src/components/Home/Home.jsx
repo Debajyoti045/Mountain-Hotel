@@ -23,8 +23,8 @@ const Home = () => {
         <hr className="whiteLine" />
         <MainNav />
         <div className="text-section">
-          <div className="small-text">{upperSmalltext}</div>
-          <div className="big-text">{upperBigText}</div>
+          <div className="small-text1">{upperSmalltext}</div>
+          <div className="big-text1">{upperBigText}</div>
         </div>
         <ParaMeterSection/>
       </div>

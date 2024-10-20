@@ -5,7 +5,7 @@ const TextSection = () => {
   return (
     <div className="after-nav-section">
       <div className="small-text">{afterNavSmallText}</div>
-      <div className="big-text">{afterNavBigText}</div>
+      <div className="big-text2">{afterNavBigText}</div>
     </div>
   )
 }

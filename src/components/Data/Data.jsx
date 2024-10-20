@@ -110,12 +110,16 @@ export const leftMainNav = [
       src: "../../public/assets/Sliderpic3.jpeg"
    },
    {
-      id:2,
+      id:4,
       src: "../../public/assets/Sliderpic4.jpeg"
    },
    {
-      id:3,
+      id:5,
       src: "../../public/assets/Sliderpic5.jpeg"
+   },
+   {
+      id:6,
+      src:"../../public/assets/Sliderpic6.jpeg"
    }
  ]
 
@@ -129,7 +133,7 @@ export const leftMainNav = [
       smallTitle: "OUTDOORS",
       mainTitle: "Winter Hiking",
       link : "/winterHiking",
-      img:"../../public/assets/Sliderpic5.jpeg"
+      img:"../../public/assets/Paradisepic1.jpg"
    },
    {
       id: 2,
@@ -137,7 +141,7 @@ export const leftMainNav = [
       smallTitle: "OUTDOORS",
       mainTitle: "Paraglider Exercises",
       link : "/ParagliderExercises",
-      img:"../../public/assets/Sliderpic5.jpeg"
+      img:"../../public/assets/Paradisepic2.jpg"
    },
    {
       id: 3,
@@ -145,7 +149,7 @@ export const leftMainNav = [
       smallTitle: "OUTDOORS",
       mainTitle: "Golf Courses",
       link : "/winterHiking",
-      img:"../../public/assets/Sliderpic5.jpeg"
+      img:"../../public/assets/Paradisepic3.jpg"
    },
    {
       id:4,
@@ -153,7 +157,7 @@ export const leftMainNav = [
       smallTitle: "OUTDOORS",
       mainTitle: "Ski & Snowshoeing",
       link: "/skiSnowshoeing",
-      img: "../../public/assets/Sliderpic5.jpeg"
+      img: "../../public/assets/Paradisepic4.jpg"
    }
  ]
 
@@ -355,7 +359,7 @@ export const leftMainNav = [
  export const ActivitiesAfterSmallText = "Book Your Stay Now"
  export const ActivitiesAfterBigText = "Escape to the beautiful mountains where dreams come true. Immerse yourself in the restorative qualities of nature, far from the disturbances of everyday life."
 
- export const ActivitiesAfterImage = "../../public/assets/lastmountain.jpeg"
+ export const ActivitiesAfterImage = "../../public/assets/lastmountain.jpg"
 
 
 export const footerLeftMainTitle = "COZYSTAY"
