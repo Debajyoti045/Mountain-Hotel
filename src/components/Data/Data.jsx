@@ -209,3 +209,9 @@ export const leftMainNav = [
       src:"../../public/assets/mainServicespic2.png"
    }
  ]
+
+ export const afterMainServicessmallText = "Discover Our Accommodations"
+ export const afterMainServicesbigText = "Rooms. Suites. Ville"
+ export const afterMainSerivicessideText = "Explore All Accommodations"
+
+ 

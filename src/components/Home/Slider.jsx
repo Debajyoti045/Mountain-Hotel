@@ -11,12 +11,13 @@ const Slider1 = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3, 
-    slidesToScroll: 1, 
-    arrows: true, 
+    slidesToScroll: 1,
+    arrows: true,
+    centerMode: true,  
   };
 
   return (
-    <div className="slider-container" style={{padding:"20px"}}>
+    <div className="slider-container" style={{ padding: '20px' }}>
       <Slider {...settings}>
         {sliderImages.map((image) => (
           <div key={image.id} className="slider-image">
@@ -26,6 +27,6 @@ const Slider1 = () => {
       </Slider>
     </div>
   );
-}
+};
 
 export default Slider1;

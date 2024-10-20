@@ -1,20 +1,30 @@
 .slider-container {
   width: 100%;
   margin: 0 auto;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .slider-image {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
+
 .slick-slide {
   display: flex;
-  justify-content: center; 
-  box-sizing: border-box; 
+  justify-content: center;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+}
+
+.slick-center {
+  transform: scale(1); 
+}
+
+.slick-slide:not(.slick-center) {
+  transform: scale(0.66); 
 }
 
 .slick-list {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .slick-track {
@@ -24,7 +34,7 @@
 
 .slick-prev,
 .slick-next {
-  width: 130px;
+  width: 40px;
   height: 40px;
   background: white;
   border-radius: 50%;
