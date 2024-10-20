@@ -34,12 +34,12 @@
   height: 500px;
   position: relative;
   margin-bottom: 30px;
-  overflow: hidden; /* Keeps the image within the card borders */
+  overflow: hidden; 
   transition: transform 0.3s ease;
-  border: 2px solid rgba(255, 165, 0, 0.7); /* Thin orange border */
-  padding: 10px; /* Add padding inside the card */
-  margin: 5px; /* Add margin outside the card */
-  box-sizing: border-box; /* Ensures padding is included in the total width/height */
+  border: 2px solid rgba(255, 165, 0, 0.7); 
+  padding: 10px; 
+  margin: 5px; 
+  box-sizing: border-box; 
 }
 
 
@@ -50,9 +50,8 @@
   transition: transform 0.5s ease;
 }
 
-/* Zoom effect on hover while keeping the image within borders */
 .card:hover img {
-  transform: scale(1.1); /* Zooms the image by 10% */
+  transform: scale(1.1); 
 }
 
 .card-info {
@@ -67,21 +66,19 @@
   box-sizing: border-box;
   color: white;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0); /* Initially no background */
+  background-color: rgba(0, 0, 0, 0); 
   transition: background-color 0.3s ease;
 }
 
-/* When hovering over the card, apply background to the card-info only */
 .card:hover .card-info {
  
 }
 
-/* Price stays in the top-left corner */
 .price {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  background-color: rgba(255, 255, 255, 0.8);
   color: #333;
   padding: 5px 10px;
   border-radius: 5px;
@@ -106,34 +103,29 @@
 
 .discover-link {
   display: inline-block;
-  color: white; /* Text color remains white */
-  text-decoration: none; /* No underline */
+  color: white; 
+  text-decoration: none; 
   font-weight: bold;
-  transition: color 0.3s ease; /* Subtle color transition on hover */
+  transition: color 0.3s ease; 
 }
 
-/* On hover, change the text color slightly for visual feedback */
 .discover-link:hover {
-  color: #ddd; /* Light gray to indicate hover */
+  color: #ddd; 
 }
 
-
-/* Price / PERSON class */
 .person-price {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: rgb(255, 255, 255); /* White background with slight transparency */
+  background-color: rgb(255, 255, 255); 
   color: #333;
   padding: 5px 10px;
   border-radius: 0px;
   font-size: 14px;
   font-weight: bold;
-  z-index: 20; /* Ensures the price is on top of the image and other elements */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for readability */
+  z-index: 20;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
-
-/* Alternate the position of each card */
 .card:nth-child(odd) {
   margin-top: 20px;
 }
@@ -142,7 +134,6 @@
   margin-top: -20px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .card-container {
       flex-direction: column;

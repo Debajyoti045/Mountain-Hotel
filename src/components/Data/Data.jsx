@@ -384,7 +384,7 @@ export const middleFooter = [
    {
       id:1,
       type:"Email",
-      Value:"booking@cozystay.com"
+      value:"booking@cozystay.com"
    },
    {
       id:2,

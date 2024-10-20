@@ -3,6 +3,7 @@
    padding-top: 50px;
    margin: 30px;
    background-color: #e1e6eb;
+   cursor: pointer;
 }
 
 .room-header {
@@ -105,15 +106,21 @@
 }
 
 .availability-section {
+    background-color: black;
+    top: 30px;
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
+    position: relative;
+    right:40px;
 }
 
 .availability-item {
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 .availability-item label {
@@ -127,9 +134,9 @@
     padding: 8px;
     font-size: 14px;
     width: 150px;
-    border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    border: 4px solid gold;
 }
 
 .availability-item button {
