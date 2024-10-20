@@ -7,6 +7,7 @@ import ParaMeterSection from "./ParaMeterSection";
 import TextSection from "./TextSection";
 import Slider from "./Slider.jsx";
 import Services from "./Services.jsx";
+import RoomSlider from "./RoomSlider.jsx";
 const Home = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const Home = () => {
       <TextSection/>
       <Slider/>
       <Services/>
+      <RoomSlider/>
     </div>
   );
 };

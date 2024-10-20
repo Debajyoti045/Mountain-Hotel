@@ -214,4 +214,139 @@ export const leftMainNav = [
  export const afterMainServicesbigText = "Rooms. Suites. Ville"
  export const afterMainSerivicessideText = "Explore All Accommodations"
 
- 
+ export const Rooms = [
+   {
+      id:1,
+      Heading: "Deluxe Room",
+      price: "$199 / Night",
+      size:{
+         id:11,
+         icon:"../../public/assets/size.png",
+         num: "35 m2"
+      },
+      bgImage: "../../public/assets/Roompic1.jpeg",
+      guests:{
+         id:12,
+         icon:"../../public/assets/guests.png",
+         num: "2 Guests"
+      },
+      bed:{
+         id:13,
+         icon:"../../public/assets/beds.png",
+         num:"1 Bed"
+      },
+      bathroom:{
+         id:14,
+         icon:"../../public/assets/bathroom.png",
+         num:"1 Bathroom"
+      }
+   },
+   {
+      id:2,
+      Heading: "Double Room",
+      price: "$199 / Night",
+      size:{
+         id:21,
+         icon:"../../public/assets/size.png",
+         num: "35 m2"
+      },
+      bgImage: "../../public/assets/Roompic1.jpeg",
+      guests:{
+         id:22,
+         icon:"../../public/assets/guests.png",
+         num: "3 Guests"
+      },
+      bed:{
+         id:23,
+         icon:"../../public/assets/beds.png",
+         num:"2 Bed"
+      },
+      bathroom:{
+         id:24,
+         icon:"../../public/assets/bathroom.png",
+         num:"2 Bathroom"
+      }
+   },
+   {
+      id:3,
+      Heading: "Signature Suite",
+      price: "$199 / Night",
+      size:{
+         id:31,
+         icon:"../../public/assets/size.png",
+         num: "35 m2"
+      },
+      bgImage: "../../public/assets/Roompic1.jpeg",
+      guests:{
+         id:32,
+         icon:"../../public/assets/guests.png",
+         num: "5 Guests"
+      },
+      bed:{
+         id:33,
+         icon:"../../public/assets/beds.png",
+         num:"2 Bed"
+      },
+      bathroom:{
+         id:34,
+         icon:"../../public/assets/bathroom.png",
+         num:"3 Bathroom"
+      }
+   }
+ ]
+
+ export const availability = [
+   {
+      id:1,
+      title:"Check in",
+      type:"Date"
+   },
+   {
+      id:2,
+      title:"Check out",
+      type:"Date"
+   },
+   {
+      id:3,
+      title:"Rooms",
+      type:"num"
+   },
+   {
+      id:4,
+      title: "Quests",
+      type:"num"
+   },
+   {
+      id:5,
+      title:"Check Availibility",
+      type:"button"
+   }
+ ]
+
+ export const RoomsAfterSmallText = "Local Activities & Events"
+
+ export const RoomsAfterBigText = "Immerse yourself in a diverse mountain resort life"
+
+ export const Activities = [
+   {
+      id:1,
+      img:"../../public/assets/Roompic1.jpeg",
+      title:"Spa & Wellness",
+      desc: "In the hotel spa center we offer an exceptional well-being experience combining our expertise, high technology and breathtaking results.",
+      link:"/spaAndwellness"
+   },
+   {
+      id:2,
+      img:"../../public/assets/Roompic1.jpeg",
+      title:"Summer Week",
+      desc: "The Swiss Alps are spectacular in summer, offering some of the best scenery in the world for hiking, biking, rafting and epic drives.",
+      link:"/summerweek"
+   },
+   {
+      id:3,
+      img:"../../public/assets/Roompic1.jpeg",
+      title:"5-Star Gastronomic",
+      desc: "Extraordinary moments and special occasions are precious. Enjoy a premium suite and dinner for two as well as spa credits with this special offer.",
+      link:"/fivestarGastonomic"
+   }
+ ]
