@@ -403,29 +403,40 @@ export const middleFooter = [
    }
 ]
 
-export const middleLink = "GET DIRECTIONS"
+export const middleLink = [
+   {
+      id:1,
+      value:"GET DIRECTIONS",
+      link:"/getdirections"
+   }
+]
 
 export const footerRightTitle = "Sign up for newsletter"
 export const connectedIcons = [
    {
       id:1,
-      icon:"../../public/assets/stripe.png"
+      icon:"../../public/assets/facebook.png",
+      link:"https://www.facebook.com/"
    },
    {
       id:2,
-      icon:"../../public/assets/stripe.png"
+      icon:"../../public/assets/twitter.png",
+      link:"https://x.com/"
    },
    {
       id:3,
-      icon:"../../public/assets/stripe.png"
+      icon:"../../public/assets/pinterest.png",
+      link:"https://www.pinterest.com/"
    },
    {
       id:4,
-      icon:"../../public/assets/stripe.png"
+      icon:"../../public/assets/youtube.png",
+      link:"https://www.youtube.com/"
    },
    {
       id:5,
-      icon:"../../public/assets/stripe.png"
+      icon:"../../public/assets/instagram.png",
+      link:"https://www.instagram.com/"
    }
 ]
 
@@ -433,14 +444,17 @@ export const footerContensLeft = [
    {
       id:1,
       value:"PRIVACY",
+      link:"/privacy"
    },
    {
       id:2,
-      value:"TERMS OF USE"
+      value:"TERMS OF USE",
+      link:"/terms"
    },
    {
      id:3,
-     value:"POLICY"
+     value:"POLICY",
+     link:"/poilcy"
    }
 ]
 

@@ -10,6 +10,7 @@ import Services from "./Services.jsx";
 import RoomSlider from "./RoomSlider.jsx";
 import Activities from "./Activities.jsx";
 import BeforeFooterComp from "./BeforeFooterComp.jsx";
+import Footer from "./Footer.jsx";
 const Home = () => {
   return (
     <div>
@@ -32,6 +33,7 @@ const Home = () => {
       <RoomSlider/>
       <Activities/>
       <BeforeFooterComp/>
+      <Footer/>
     </div>
   );
 };
