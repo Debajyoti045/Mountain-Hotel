@@ -156,3 +156,56 @@ export const leftMainNav = [
       img: "../../public/assets/Sliderpic5.jpeg"
    }
  ]
+
+ export const afterServicesSmallText = "Discover the Services we offered"
+ export const afterServicesBigText = "The Essentials"
+
+ export const mainServices = [
+   {
+      id:1,
+      icon: "../../public/assets/car.png",
+      title: "Airport Pick-up Service",
+      subtitle: "Lorem ipsum proin gravida velit auctor sde re sit amet space."
+   },
+   {
+      id:2,
+      icon:"../../public/assets/wifi.png",
+      title:"Wifi & Internet",
+      subtitle:"Lorem ipsum proin gravida velit auctor sde re sit amet space."
+   },
+   {
+      id:3,
+      icon:"../../public/assets/breakfast.png",
+      title:"Breakfast in Bed",
+      subtitle:"Lorem ipsum proin gravida velit auctor sde re sit amet space."
+   },
+   {
+      id:4,
+      icon:"../../public/assets/housekeeper.png",
+      title:"Housekeeper Services",
+      subtitle:"Lorem ipsum proin gravida velit auctor sde re sit amet space."
+   },
+   {
+      id:5,
+      icon:"../../public/assets/loundry.png",
+      title:"Laundry Services",
+      subtitle:"Lorem ipsum proin gravida velit auctor sde re sit amet space."
+   },
+   {
+      id:6,
+      icon:"../../public/assets/swimmingpoll.png",
+      title:"Swimming Pool",
+      subtitle:"Lorem ipsum proin gravida velit auctor sde re sit amet space."
+   }
+ ]
+
+ export const mainServicesSideImages = [
+   {
+      id:1,
+      src:"../../public/assets/mainServicespic1.png"
+   },
+   {
+      id:2,
+      src:"../../public/assets/mainServicespic2.png"
+   }
+ ]

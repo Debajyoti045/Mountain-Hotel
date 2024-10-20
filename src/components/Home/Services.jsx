@@ -4,8 +4,8 @@ import {afterSliderSmallText,afterSliderBigText,services} from "../Data/Data.jsx
 const Services = () => {
   return (
     <section className="holiday-section">
-      <h2 className="small-text">{afterSliderSmallText}</h2>
-      <h1 className="big-text">{afterSliderBigText}</h1>
+      <h2 className="small-text2">{afterSliderSmallText}</h2>
+      <h1 className="big-text2">{afterSliderBigText}</h1>
       <div className="card-container">
         {services.map((service) => (
           <div className="card" key={service.id}>

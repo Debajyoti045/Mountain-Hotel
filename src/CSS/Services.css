@@ -1,19 +1,17 @@
-/* Services.css */
-
 .holiday-section {
     padding: 60px 20px;
     background-color: #f9f9f9;
     text-align: center;
   }
   
-  .small-text {
+  .small-text2 {
     font-size: 18px;
     color: #888;
     margin-bottom: 10px;
   }
   
-  .big-text {
-    font-size: 36px;
+  .big-text2 {
+    font-size: 46px;
     color: #333;
     margin-bottom: 40px;
     font-weight: bold;
