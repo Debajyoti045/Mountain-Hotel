@@ -1,91 +1,161 @@
 .holiday-section {
-    padding: 60px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .small-text2 {
-    font-size: 18px;
-    color: #888;
-    margin-bottom: 10px;
-  }
-  
-  .big-text2 {
-    font-size: 46px;
-    color: #333;
-    margin-bottom: 40px;
-    font-weight: bold;
-  }
-  
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  cursor: pointer;
+}
+
+.small-text2 {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.big-text2 {
+  font-size: 46px;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 500px;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden; /* Keeps the image within the card borders */
+  transition: transform 0.3s ease;
+  border: 2px solid rgba(255, 165, 0, 0.7); /* Thin orange border */
+  padding: 10px; /* Add padding inside the card */
+  margin: 5px; /* Add margin outside the card */
+  box-sizing: border-box; /* Ensures padding is included in the total width/height */
+}
+
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Zoom effect on hover while keeping the image within borders */
+.card:hover img {
+  transform: scale(1.1); /* Zooms the image by 10% */
+}
+
+.card-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0); /* Initially no background */
+  transition: background-color 0.3s ease;
+}
+
+/* When hovering over the card, apply background to the card-info only */
+.card:hover .card-info {
+ 
+}
+
+/* Price stays in the top-left corner */
+.price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 10;
+ 
+}
+
+.card-info .main-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-info .small-title {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.discover-link {
+  display: inline-block;
+  color: white; /* Text color remains white */
+  text-decoration: none; /* No underline */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Subtle color transition on hover */
+}
+
+/* On hover, change the text color slightly for visual feedback */
+.discover-link:hover {
+  color: #ddd; /* Light gray to indicate hover */
+}
+
+
+/* Price / PERSON class */
+.person-price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(255, 255, 255); /* White background with slight transparency */
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 20; /* Ensures the price is on top of the image and other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for readability */
+}
+
+/* Alternate the position of each card */
+.card:nth-child(odd) {
+  margin-top: 20px;
+}
+
+.card:nth-child(even) {
+  margin-top: -20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-  
-  .card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    width: 300px;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .card-info {
-    padding: 20px;
-    text-align: left;
-  }
-  
-  .price {
-    font-size: 20px;
-    color: #ff5722;
-    font-weight: bold;
-  }
-  
-  .small-title {
-    font-size: 16px;
-    color: #888;
-    margin: 10px 0;
-  }
-  
-  .main-title {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .discover-link {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #ff5722;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .discover-link:hover {
-    background-color: #e64a19;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .card-container {
       flex-direction: column;
       align-items: center;
-    }
   }
-  
+
+  .card {
+      width: 100%;
+      height: auto;
+  }
+
+  .card-info .price {
+      top: 5px;
+      left: 5px;
+  }
+}
