@@ -11,6 +11,7 @@ import RoomSlider from "./RoomSlider.jsx";
 import Activities from "./Activities.jsx";
 import BeforeFooterComp from "./BeforeFooterComp.jsx";
 import Footer from "./Footer.jsx";
+import Eminities from "./Eminities.jsx";
 const Home = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ const Home = () => {
       <TextSection/>
       <Slider/>
       <Services/>
+      <Eminities/>
       <RoomSlider/>
       <Activities/>
       <BeforeFooterComp/>
