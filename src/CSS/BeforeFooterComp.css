@@ -21,9 +21,13 @@
   }
   
   .big-text {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: white;
+    font-size: 2rem; 
+    color: white; 
+    font-weight: 500;
+    line-height: 1.5; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding-bottom: 20px;
   }
   
   .check-info {
