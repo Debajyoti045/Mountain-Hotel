@@ -1,96 +1,161 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    background-color: #000;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-left h2, .footer-middle h3, .footer-right h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-icons img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer-middle ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-middle ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-right .newsletter-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.footer-right .newsletter-form input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-right .newsletter-form button {
+  background-color: #d9a760;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer-right .privacy-policy {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer-right .social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.footer-bottom a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column; 
+      padding: 20px; 
   }
   
   .footer-left, .footer-middle, .footer-right {
-    flex: 1;
-    margin-right: 20px;
+      flex: none; 
+      margin-right: 0; 
+      margin-bottom: 20px;
+      width: 100%; 
   }
   
   .footer-left h2, .footer-middle h3, .footer-right h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+      font-size: 20px; 
   }
   
-  .footer-left p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-icons img {
-    width: 40px;
-    margin-right: 10px;
-  }
-  
-  .footer-middle ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-middle ul li {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-link {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: underline;
-    color: #fff;
+  .footer-left p, .footer-middle ul li, .footer-right .privacy-policy {
+      font-size: 14px; 
   }
   
   .footer-right .newsletter-form {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+      flex-direction: column; 
   }
   
   .footer-right .newsletter-form input {
-    width: 70%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+      width: 100%; 
+      margin-bottom: 10px; 
   }
-  
+
   .footer-right .newsletter-form button {
-    background-color: #d9a760;
-    border: none;
-    color: #fff;
-    padding: 10px 20px;
-    cursor: pointer;
+      width: 100%; 
   }
-  
-  .footer-right .privacy-policy {
-    font-size: 14px;
-    margin-bottom: 20px;
+
+  .social-icons img {
+      width: 25px; 
   }
-  
-  .footer-right .social-icons img {
-    width: 30px;
-    margin-right: 10px;
+}
+
+@media (max-width: 480px) {
+  .footer-left h2, .footer-middle h3, .footer-right h3 {
+      font-size: 18px; 
   }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid #333;
-    padding-top: 10px;
+
+  .footer-left p, .footer-middle ul li, .footer-right .privacy-policy {
+      font-size: 12px; 
   }
-  
+
+  .footer-right .newsletter-form input, .footer-right .newsletter-form button {
+      padding: 8px;
+  }
+
+  .footer-right .newsletter-form button {
+      font-size: 14px; 
+  }
+
   .footer-bottom a {
-    color: #fff;
-    margin-right: 15px;
-    text-decoration: none;
+      margin-right: 10px; 
   }
-  
-  .footer-bottom a:hover {
-    text-decoration: underline;
+
+  .social-icons img {
+      width: 20px;
   }
-  
-  .social-icons{
-    padding: 10px;
-  }
+}

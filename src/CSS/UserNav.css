@@ -7,9 +7,9 @@
   width: 100%; 
   top: 0; 
   left: 0; 
-}
+} 
 
-.upper-nav .address {
+ .upper-nav .address {
   padding-left: 30px;
   font-size: 22px;
 }
@@ -18,5 +18,8 @@
   padding: 20px;
   font-size: 19px;
 }
-
-  
+  @media (max-width: 768px) {
+    .upper-nav {
+      display: none;
+    }
+  }
