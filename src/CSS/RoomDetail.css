@@ -1,0 +1,126 @@
+.room-detail-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.room-detail-left {
+  flex: 2;
+}
+
+.room-detail-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.room-heading {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.room-description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.room-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.room-facilities-description {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.room-facilities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+.room-facilities div {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  color: #555;
+}
+
+.room-facilities img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+
+.reservation-container, .hotel-rules-container {
+  background-color: #f8f4ef;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-container h2, .hotel-rules-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form label {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.reservation-form input,
+.reservation-form select {
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-now-btn {
+  background-color: #a47551;
+  color: #fff;
+  padding: 12px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-now-btn:hover {
+  background-color: #8a6343;
+}
+
+.hotel-rules {
+  list-style-type: none;
+  padding: 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.hotel-rules li {
+  margin-bottom: 5px;
+}

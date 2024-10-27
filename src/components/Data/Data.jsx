@@ -243,7 +243,9 @@ export const leftMainNav = [
          id:14,
          icon:"../../public/assets/bathroom.png",
          num:"1 Bathroom"
-      }
+      },
+      roomDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate animi minus illum quis nulla hic eos vero soluta, harum officiis sint facilis?",
+      roomFacilityDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a fugiat corporis aspernatur est vel porro, quidem adipisci pariatur quasi, aliquid autem, placeat perferendis fugit. Perferendis illo accusantium dolorem, ducimus molestias obcaecati culpa nisi."
    },
    {
       id:2,
@@ -269,7 +271,9 @@ export const leftMainNav = [
          id:24,
          icon:"../../public/assets/bathroom.png",
          num:"2 Bathroom"
-      }
+      },
+      roomDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate animi minus illum quis nulla hic eos vero soluta, harum officiis sint facilis?",
+      roomFacilityDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a fugiat corporis aspernatur est vel porro, quidem adipisci pariatur quasi, aliquid autem, placeat perferendis fugit. Perferendis illo accusantium dolorem, ducimus molestias obcaecati culpa nisi."
    },
    {
       id:3,
@@ -295,7 +299,9 @@ export const leftMainNav = [
          id:34,
          icon:"../../public/assets/bathroom.png",
          num:"3 Bathroom"
-      }
+      },
+      roomDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate animi minus illum quis nulla hic eos vero soluta, harum officiis sint facilis?",
+      roomFacilityDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a fugiat corporis aspernatur est vel porro, quidem adipisci pariatur quasi, aliquid autem, placeat perferendis fugit. Perferendis illo accusantium dolorem, ducimus molestias obcaecati culpa nisi."
    }
  ]
 
