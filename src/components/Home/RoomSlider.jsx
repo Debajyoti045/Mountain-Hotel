@@ -1,19 +1,19 @@
 import React from 'react';
-import Slider from 'react-slick'; 
-import "../../CSS/RoomSlider.css"
+import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
+import "../../CSS/RoomSlider.css";
 import { afterMainServicessmallText, afterMainServicesbigText, afterMainSerivicessideText, Rooms, availability } from '../Data/Data';
 import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css'; 
-
+import 'slick-carousel/slick/slick-theme.css';
 const RoomSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2.5, 
+    slidesToShow: 2.5,
     slidesToScroll: 1,
     arrows: true,
-    centerMode: true, 
+    centerMode: true,
   };
 
   return (
@@ -27,30 +27,32 @@ const RoomSlider = () => {
       <div className="slider-container">
         <Slider {...settings}>
           {Rooms.map((room) => (
-            <div key={room.id} className="room-card"  style={{ backgroundImage: `url(${room.bgImage})` }}>
-              <div className="room-info">
-                <span className="room-price">{room.price}</span>
-                <h3 className="room-heading">{room.Heading}</h3>
-                <div className="room-details">
-                  <div className="detail-item">
-                    <img src={room.size.icon} alt="size icon" />
-                    <span>{room.size.num}</span>
-                  </div>
-                  <div className="detail-item">
-                    <img src={room.guests.icon} alt="guests icon" />
-                    <span>{room.guests.num}</span>
-                  </div>
-                  <div className="detail-item">
-                    <img src={room.bed.icon} alt="bed icon" />
-                    <span>{room.bed.num}</span>
-                  </div>
-                  <div className="detail-item">
-                    <img src={room.bathroom.icon} alt="bathroom icon" />
-                    <span>{room.bathroom.num}</span>
+            <Link to={`/room/${room.id}`} key={room.id}>
+              <div className="room-card" style={{ backgroundImage: `url(${room.bgImage})` }}>
+                <div className="room-info">
+                  <span className="room-price">{room.price}</span>
+                  <h3 className="room-heading">{room.Heading}</h3>
+                  <div className="room-details">
+                    <div className="detail-item">
+                      <img src={room.size.icon} alt="size icon" />
+                      <span>{room.size.num}</span>
+                    </div>
+                    <div className="detail-item">
+                      <img src={room.guests.icon} alt="guests icon" />
+                      <span>{room.guests.num}</span>
+                    </div>
+                    <div className="detail-item">
+                      <img src={room.bed.icon} alt="bed icon" />
+                      <span>{room.bed.num}</span>
+                    </div>
+                    <div className="detail-item">
+                      <img src={room.bathroom.icon} alt="bathroom icon" />
+                      <span>{room.bathroom.num}</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </Slider>
       </div>
